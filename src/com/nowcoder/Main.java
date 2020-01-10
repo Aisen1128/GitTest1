@@ -30,6 +30,7 @@ public class Main {
         DateFormat df=new SimpleDateFormat("HH:mm:ss yyyy/MM/dd");
         print(8,df.format(date));
         print(9,UUID.randomUUID());
+        print(10,array);
     }
     public static void main(String[] args) {
 	    demoCommon();
